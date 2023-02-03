@@ -25,9 +25,9 @@ public class Ceiling {
 
             if (target > arr[mid]) {
                 start = mid + 1;
-                int i = mid;
+                int i = start;
                 while(i <= end) {
-                    if (arr[i] > target) {
+                    if (arr[i] >= target) {
                         break;
                     }
                     i++;
@@ -38,15 +38,14 @@ public class Ceiling {
             else if (target < arr[mid]) {
                 end = mid - 1;
                 int j = 0;
-                while(j <= mid) {
-                    if (arr[j] > target) {
+                while(j <= end) {
+                    if (arr[j] >= target) {
                         break;
                     }
                     j++;
                 }
                 return arr[j];
-            }
-            else if (target == arr[mid]) {
+            } else if (target == arr[mid]) {
                 return mid;
             }
         }
