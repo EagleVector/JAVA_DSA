@@ -8,6 +8,7 @@ public class Evendigcount {
         System.out.println(evencount);
     }
 
+    // Brute Force Technique.
     static int even(int[] arr) {
         int ans = 0;
         for (int i = 0; i < arr.length; i++) {
