@@ -18,6 +18,9 @@ public class Ceiling {
     }
 
     static int ceilng(int[] arr, int target) {
+        if (target > arr[arr.length - 1]) {
+            return -1;
+        }
         int start = 0;
         int end = arr.length - 1;
         while (start <= end) {
@@ -25,30 +28,31 @@ public class Ceiling {
 
             if (target > arr[mid]) {
                 start = mid + 1;
-                int i = start;
-                while(i <= end) {
-                    if (arr[i] >= target) {
-                        break;
-                    }
-                    i++;
-                }
-                return arr[i];
+//                int i = start;
+//                while(i <= end) {
+//                    if (arr[i] >= target) {
+//                        break;
+//                    }
+//                    i++;
+//                }
+//                return arr[i];
             }
 
             else if (target < arr[mid]) {
                 end = mid - 1;
-                int j = 0;
-                while(j <= end) {
-                    if (arr[j] >= target) {
-                        break;
-                    }
-                    j++;
-                }
-                return arr[j];
-            } else if (target == arr[mid]) {
+//                int j = 0;
+//                while(j <= end) {
+//                    if (arr[j] >= target) {
+//                        break;
+//                    }
+//                    j++;
+//                }
+//                return arr[j];
+            }
+            else if (target == arr[mid]) {
                 return mid;
             }
         }
-        return -1;
+        return start;
     }
 }
