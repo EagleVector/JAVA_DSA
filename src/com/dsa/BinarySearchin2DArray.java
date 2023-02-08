@@ -5,12 +5,10 @@ import java.util.Arrays;
 public class BinarySearchin2DArray {
     public static void main(String[] args) {
         int[][] arr2D = {
-                {10, 20, 30, 40, 46},
-                {12, 21, 34, 45, 47},
                 {48, 50, 54, 61, 65},
                 {72, 75, 81, 88, 92}
         };
-        int target = 92;
+        int target = 81;
         int[] ans = searchin2D(arr2D, target);
         System.out.println(Arrays.toString(ans));
     }
