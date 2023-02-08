@@ -1,2 +1,4 @@
-package com.dsa;public class InsertionSort {
+package com.dsa;
+
+public class InsertionSort {
 }

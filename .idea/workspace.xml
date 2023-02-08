@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56f8568-6033-4dc9-a56a-99bfa97797ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/BinarySearchin2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/BinarySearchin2DArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsa/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
